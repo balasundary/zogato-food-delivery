@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ordering Website</title>
+    <link rel="stylesheet" href="hotelcss.css">
+</head>
+<body>
+    <header>
+        <h1>Food Ordering Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#restaurants">Restaurants</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to Our Food Ordering Website</h2>
+            <p>Order delicious food from your favorite restaurants with ease.</p>
+            <a href="#restaurants" class="button">Order Now</a>
+        </div>
+    </section>
+
+    <section id="restaurants">
+        <div class="container">
+            <h2>Restaurants</h2>
+            <div class="restaurant">
+                <img src="rest1.jpg" alt="Restaurant 1">
+                <h3>Hotel banana leaf</h3>
+                <p>Description of the restaurant.</p>
+                <a href="banana leaf.html">Order Now</a>
+            </div>
+            <div class="restaurant">
+                <img src="rest2.jpg" alt="Restaurant 2">
+                <h3>Hotel laya in</h3>
+                <p>Description of the restaurant.</p>
+                <a href="hotel2.html">Order Now</a>
+            </div>
+            <div class="restaurant">
+                <img src="rest3.jpg" alt="Restaurant 2">
+                <h3>Hotel Arabian spice</h3>
+                <p>Description of the restaurant.</p>
+                <a href="arabian.html">Order Now</a>
+            </div>
+            <!-- Add more restaurants as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or feedback, feel free to reach out to us.</p>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Food Ordering Website. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
